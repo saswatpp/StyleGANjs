@@ -4,10 +4,16 @@ Minimal Example to generate StyleGAN HQ face images deployed using Tensorflowjs-
 
 ## Sample Images
 
-![Image 1](/images/image1.PNG){width: 200px;}
+<!-- ![Image 1](/images/image1.PNG){width: 200px;}
 ![Image 2](/images/image2.PNG){width: 200px;}
-![Image 3](/images/image3.PNG){width: 200px;}
-
+![Image 3](/images/image3.PNG){width: 200px;} -->
+<p float="left">
+  <img src="/images/image1.PNG" width="200" />
+  <img src="/images/image2.PNG" width="200" /> 
+  <img src="/images/image3.PNG" width="200" />
+  <img src="/images/stylegan.PNG" width="200" />
+<!--   <img src="/images/stylegan2.PNG" width="200" /> -->
+</p>
 
 ## System Requirements
 The whole setup was tested on WSL for windows, Microsoft Edge browser with `WebGL` enabled and NVIDIA Geforce 940MX GPU. The warmup took about 10-15 seconds and subsequent generation takes about 3-4 seconds. Any suggestions regarding optimising the performance is welcome. *** It wasn't tested on any other platform but chances are the browser will crash (will certainty). ***
