@@ -4,9 +4,9 @@ Minimal Example to generate StyleGAN HQ face images deployed using Tensorflowjs-
 
 ## Sample Images
 
-![Image 1](/images/image1.png){width: 200px;}
-![Image 2](/images/image2.png){width: 200px;}
-![Image 3](/images/image3.png){width: 200px;}
+![Image 1](/images/image1.PNG){width: 200px;}
+![Image 2](/images/image2.PNG){width: 200px;}
+![Image 3](/images/image3.PNG){width: 200px;}
 
 
 ## System Requirements
