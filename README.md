@@ -15,8 +15,10 @@ Minimal Example to generate StyleGAN HQ face images deployed using Tensorflowjs-
 <!--   <img src="/images/stylegan2.PNG" width="200" /> -->
 </p>
 
+**Picture:** *These people are not real &ndash; they were produced by Stylegan generator that allows control over different aspects of the image.*
+
 ## System Requirements
-The whole setup was tested on WSL for windows, Microsoft Edge browser with `WebGL` enabled and NVIDIA Geforce 940MX GPU. The warmup took about 10-15 seconds and subsequent generation takes about 3-4 seconds. Any suggestions regarding optimising the performance is welcome. *** It wasn't tested on any other platform but chances are the browser will crash (will certainty). ***
+The whole setup was tested on WSL for windows, Microsoft Edge browser with `WebGL` enabled and NVIDIA Geforce 940MX GPU. The warmup took about 10-15 seconds and subsequent generation takes about 3-4 seconds. Any suggestions regarding optimising the performance is welcome. **It wasn't tested on any other platform but chances are the browser will crash (will certainty).**
 
 ## Installation
 
@@ -63,12 +65,11 @@ npm install --global http-server
 parcel home.html
 ```
 
-You have to separately host the model files using `http-server` using the following command in another terminal:
+You have to separately host the model files using `http-server` using the following command in another terminal:(the default port is 8080 and must be kept as is for the demo to run)
 
 ```bash
 http-server --cors
 ```
 
-
-
-
+## Acknowledgement
+Thanking Ibraheem Alhashim @ialhashim for Tensorflow-2 Implementation of StyleGAN. 
